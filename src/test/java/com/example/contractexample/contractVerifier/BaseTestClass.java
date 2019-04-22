@@ -1,4 +1,4 @@
-package com.example.contractexample;
+package com.example.contractexample.contractVerifier;
 
 import com.example.contractexample.producer.controller.EvenOddController;
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
@@ -15,7 +15,7 @@ import org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @DirtiesContext
-public class ContractExampleApplicationTests {
+public class BaseTestClass {
     @Autowired
     private EvenOddController evenOddController;
 
